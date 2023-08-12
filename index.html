@@ -19,6 +19,15 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <!--Fonts from Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito+Sans:opsz@6..12&display=swap"
+    rel="stylesheet">
+
+  <!--FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/4815ff8393.js" crossorigin="anonymous"></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -43,46 +52,59 @@
       <section id="projects">
         <div class="content-wrapper">
           <h2>Projects</h2>
-          <div>
-            <h3>Unplugged</h3>
-            <img src="img/Unplugged.png" alt="Front page of the Unplugged site" />
-            <p>The Unplugged Retreat website was made to simulate the webpage of a business retreat. The elements of the
-              webpage were arranged using flexbox and designed with CSS. The website adjusts to the user's screen to
-              maintain a good experience for the user no matter what device they use to see it on.</p>
-            <p><span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
-            <p><span>Tools:</span> GitHub, Visual Studio Code</p>
-            <a>Check it out!</a>
-          </div>
-          <div>
-            <h3>Guess the Word</h3>
-            <img src="img/GuessTheWord.png" alt="Front page of the Guess the Word site" />
-            <p>A game where the user must guess the designated word one letter at a time in 8 tries. The web page uses
-              JavaScript and DOM manipulation to keep track of guessed letters, the number of tries, and how much of the
-              word has been already guessed.</p>
-            <p><span>Skills:</span> HTML5, CSS3, JavaScript, DOM Manipulation</p>
-            <p><span>Tools:</span> GitHub, Visual Studio Code</p>
-            <a>Check it out!</a>
-          </div>
-          <div>
-            <h3>Github Repo Gallery</h3>
-            <img src="img/RepoGallery.png" alt="Front page of the Github Repo Gallery site" />
-            <p>A web page that shows off the public repositories viewable on my Github. Using the Github API, the page
-              displays my basic profile and lists my public repos with the help of JavaScript. The user can also search
-              for repositories by name as well as click on the repositories to learn more and get a link to said repo.
-            </p>
-            <p><span>Skills:</span> HTML5, CSS3, JavaScript, DOM Manipulation, APIs</p>
-            <p><span>Tools:</span> GitHub, Visual Studio Code</p>
-            <a>Check it out!</a>
-          </div>
-          <div>
-            <h3>Super Sticky Notes</h3>
-            <img src="img/GuessTheWord.png" alt="Front page of the Super Sticky Notes site" />
-            <p>A sticky note app that lets the user create, edit, delete, and search for sticky notes. Using React
-              components, the webpage allows for the creation of as many notes as the user wants. The user can also type
-              in the search bar to find notes with matching text in real time.</p>
-            <p><span>Skills:</span> React, JSX, Components, Managing data flow</p>
-            <p><span>Tools:</span> CodeSandBox</p>
-            <a>Check it out!</a>
+          <div class="project-wrapper">
+            <div class="project">
+              <a href="https://abdullahj99.github.io/unplugged/" target="_blank">
+                <img class="project-pic" src="img/Unplugged.png" alt="Front page of the Unplugged site" />
+              </a>
+              <h3>Unplugged</h3>
+              <p class="project-desc">The Unplugged Retreat website was made to simulate the webpage of a business
+                retreat. The elements of the
+                webpage were arranged using flexbox and designed with CSS. The website adjusts to the user's screen to
+                maintain a good experience for the user no matter what device they use to see it on.</p>
+              <p><span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
+              <p><span>Tools:</span> GitHub, Visual Studio Code</p>
+              <a class="project-link" href="https://abdullahj99.github.io/unplugged/" target="_blank">Check it out!</a>
+            </div>
+            <div class="project">
+              <a href="https://abdullahj99.github.io/guess-the-word/" target="_blank">
+                <img class="project-pic" src="img/GuessTheWord.png" alt="Front page of the Guess the Word site" />
+              </a>
+              <h3>Guess the Word</h3>
+              <p class="project-desc">A game where the user must guess the designated word one letter at a time in 8
+                tries. The web page uses
+                JavaScript and DOM manipulation to keep track of guessed letters, the number of tries, and how much of
+                the word has been already guessed.</p>
+              <p><span>Skills:</span> HTML5, CSS3, JavaScript, DOM Manipulation</p>
+              <p><span>Tools:</span> GitHub, Visual Studio Code</p>
+              <a class="project-link" href="https://abdullahj99.github.io/guess-the-word/" target="_blank">Check it out!</a>
+            </div>
+            <div class="project">
+              <a href="https://abdullahj99.github.io/repo-gallery/" target="_blank">
+                <img class="project-pic" src="img/RepoGallery.png" alt="Front page of the Github Repo Gallery site" />                
+              </a>
+              <h3>Github Repo Gallery</h3>
+              <p class="project-desc">A web page that shows off the public repositories viewable on my Github. Using the
+                Github API, the page displays my basic profile and lists my public repos with the help of JavaScript.
+                The user can also search for repositories by name as well as click on the repositories to learn more and
+                get a link to said repo.
+              </p>
+              <p><span>Skills:</span> HTML5, CSS3, JavaScript, DOM Manipulation, APIs</p>
+              <p><span>Tools:</span> GitHub, Visual Studio Code</p>
+              <a class="project-link" href="https://abdullahj99.github.io/repo-gallery/" target="_blank">Check it out!</a>
+            </div>
+            <div class="project">
+              <a href="https://wklsq7.csb.app/" target="_blank">
+                <img class="project-pic" src="img/StickyNotes.png" alt="Front page of the Super Sticky Notes site" />
+              </a>
+              <h3>Super Sticky Notes</h3>
+              <p class="project-desc">A sticky note app that lets the user create, edit, delete, and search for sticky
+                notes. Using React components, the webpage allows for the creation of as many notes as the user wants.
+                The user can also type in the search bar to find notes with matching text in real time.</p>
+              <p><span>Skills:</span> React, JSX, Components, Managing data flow</p>
+              <p><span>Tools:</span> CodeSandBox</p>
+              <a class="project-link" href="https://wklsq7.csb.app/" target="_blank">Check it out!</a>
+            </div>
           </div>
         </div>
       </section>
@@ -91,20 +113,18 @@
           <h2>Skills</h2>
           <h3>Languages and Coding</h3>
           <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>Responsive Web Design</li>
-            <li>APIs</li>
+            <li><i class="fa-solid fa-file-code"></i>HTML & CSS</li>
+            <li><i class="fa-brands fa-square-js"></i>JavaScript</li>
+            <li><i class="fa-brands fa-react"></i>React</li>
+            <li><i class="fa-solid fa-window-restore"></i>Responsive Web Design</li>
+            <li><i class="fa-solid fa-globe"></i>APIs</li>
           </ul>
           <h3>Tools and Tech</h3>
           <ul>
-            <li>Git Bash</li>
-            <li>Github & Github Pages</li>
-            <li>Visaul Studio Code</li>
-            <li>Chrome DevTools</li>
-            <li>Figma</li>
+            <li><i class="fa-brands fa-git-alt"></i>Git Bash</li>
+            <li><i class="fa-brands fa-github"></i>Github & Github Pages</li>
+            <li><i class="fa-brands fa-chrome"></i>Chrome DevTools</li>
+            <li><i class="fa-brands fa-figma"></i>Figma</li>
           </ul>
         </div>
       </section>
