@@ -222,6 +222,7 @@ textarea {
   margin: 20px 0;
   border: 3px solid #EC91C4;
   box-sizing: border-box;
+  filter: drop-shadow(1px 2px 6px gray);
 }
 
 .project p {
@@ -277,7 +278,20 @@ textarea {
     width: 80%;
     background-color: #EC91C4;
     padding: 10px 0;
-    margin: 10px 0; 
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 100px;
+  }
+
+  .icon-half{
+    width: 15%;
+  }
+
+  .skill-half{
+    width: 75%;
+    text-align: left;
   }
 
 /* ==========================================================================
