@@ -290,8 +290,8 @@ textarea {
     width: 15%;
   }
 
-  .skill-half{
-    width: 75%;
+  .text-half{
+    width: 80%;
     text-align: left;
   }
 
@@ -325,6 +325,65 @@ textarea {
     text-align: justify;
     font-size: 1.25em;
     line-height: 1.125em;
+  }
+
+  /* ---------------------------- CONTACT STYLES ---------------------------- */
+  #contact{
+    padding: 60px 0;
+    background-color: #351d77;
+    color: #eee4f0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  #contact div{
+    display: flex;
+    flex-flow: column;
+  }
+
+  #contact h5{
+    font-size: 1.5em;
+    margin: 60px 0 30px 0;
+  }
+
+  .connect-segment{
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-links{
+    color: #eee4f0;
+    margin: 5px 0;
+  }
+
+  .social-icons {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  .social-icons p{
+    background-color: #E9B14C;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.5em;
+  }
+
+  .social-icons li a p{
+    color: #351d77;
+    height: 40px;
+    width: 40px;
+  }
+
+  .copyright{
+    margin: 60px 0 0 0;
   }
 
 /* ==========================================================================
