@@ -180,6 +180,13 @@ textarea {
 
   header nav ul li a{
     color: #eee4f0;
+    padding: 5px;
+  }
+
+  .important-nav{
+    background-color: #E9B14C;
+    border-radius: 100px;
+    color: #351d77;
   }
 
   /* ---------------------------- PROJECTS STYLES ---------------------------- */
@@ -306,6 +313,7 @@ textarea {
   #about img{
     border: 5px solid #EC91C4;
     border-radius: 5px;
+    width: 80%;
     background: teal url("../img/space-background.jpg") no-repeat center;
     background-size: cover;
   }
