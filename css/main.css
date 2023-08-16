@@ -185,6 +185,7 @@ header nav ul {
 header nav ul li a {
   color: #eee4f0;
   padding: 5px;
+  font-size: .875rem;
 }
 
 .important-nav {
@@ -380,7 +381,7 @@ span {
 
 .social-icons {
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: space-evenly;
 }
 

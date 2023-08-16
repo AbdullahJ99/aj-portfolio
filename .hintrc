@@ -17,6 +17,8 @@
         ]
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "compat-api/css": "off",
+    "axe/name-role-value": "off"
   }
 }
