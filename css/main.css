@@ -88,10 +88,6 @@ textarea {
    ========================================================================== */
 
    /* ---------------------------- GLOBAL STYLES ---------------------------- */
-   html {
-    font-size: 1rem;
-   }
-    
    body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
@@ -110,23 +106,37 @@ textarea {
     text-decoration: none;
    }
     
-   h2 {
-    font-family: 'Alata';
-    font-size: 3em;
-    font-weight: 500;
-   }
-    
+   h1,
+   h2,
    h3, 
-   h4 {
+   h4,
+   h5 {
     font-family: 'Alata';
-    font-size: 2em;
-    font-weight: 500;
+    font-weight: bold;
+   }
+
+   h1{
+    font-size: 2.75rem;
+   }
+
+   h2{
+    font-size: 2.5rem;
+   }
+
+   h3{
+    font-size: 2rem;
+   }
+
+   h4,
+   h5{
+    font-size: 1.5rem;
    }
     
-   p {
-     font-size: 1em;
-     line-height: 18px;
+   p,
+   a {
      margin: 0;
+     font-size: 1.125rem;
+     line-height: 1.5;
    }
     
    img {
@@ -135,10 +145,6 @@ textarea {
     
    .content-wrapper{
     width: 90%;
-  }
-
-  i{
-    font-size: 1.5em;
   }
 
    /* ---------------------------- HEADER STYLES ---------------------------- */
@@ -161,13 +167,11 @@ textarea {
   }
 
   header .content-wrapper h1{
-    font-size: 3em;
     margin: 60px 0 30px 0;
   }
 
    header nav{
     width: 100%;
-    font-size: .875em;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -189,72 +193,73 @@ textarea {
     color: #351d77;
   }
 
-  /* ---------------------------- PROJECTS STYLES ---------------------------- */
-#projects {
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+/* ---------------------------- PROJECTS STYLES ---------------------------- */
+  #projects {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-#projects h2 {
-  text-align: center;
-  font-size: 3em;
-  margin: 0;
-}
+  #projects h2 {
+    text-align: center;
+    margin: 0;
+  }
 
-.project-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
+  .project-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
 
-.project{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  .project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.project h3 {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 0;
-}
+  .project h3 {
+    text-align: center;
+    margin: 0;
+  }
 
-.project-pic{
-  margin: 20px 0;
-  border: 3px solid #EC91C4;
-  box-sizing: border-box;
-  filter: drop-shadow(1px 2px 6px gray);
-}
+  .project-pic{
+    margin: 20px 0;
+    border: 3px solid #EC91C4;
+    box-sizing: border-box;
+    filter: drop-shadow(1px 2px 6px gray);
+  }
 
-.project p {
-  text-align: left;
-  width: 100%;
-}
+  .project p {
+    text-align: left;
+    width: 100%;
+  }
 
-.project-desc{
-  margin: 0 0 20px 0;
-  text-align: justify;
-  line-height: 1.125em;
-}
+  .project-desc{
+    margin: 0 0 20px 0;
+    text-align: justify;
+  }
 
-.project p span{
-  font-weight: bold;
-  text-align: left;
-}
+  span{
+    font-weight: bold;
+    text-align: left;
+  }
 
-.project-link {
-  text-transform: uppercase;
-  background-color: #EC91C4;
-  padding: .75rem 2rem;
-  margin: 30px 0 60px 0;
-  border-radius: 10px;
-}
+  .flex-fill{
+    flex-grow: 1;
+  }
+
+  .project-link {
+    text-transform: uppercase;
+    background-color: #EC91C4;
+    padding: .75rem 2rem;
+    margin: 30px 0 60px 0;
+    border-radius: 10px;
+  }
 
   /* ---------------------------- SKILLS STYLES ---------------------------- */
   #skills{
@@ -268,7 +273,6 @@ textarea {
 
   #skills h2 {
     text-align: center;
-    font-size: 3em;
     margin: 0;
   }
 
@@ -293,6 +297,10 @@ textarea {
     font-weight: bold;
   }
 
+  #skills i{
+    font-size: 1.5rem;
+  }
+
   .icon-half{
     width: 15%;
   }
@@ -302,7 +310,7 @@ textarea {
     text-align: left;
   }
 
-  /* ---------------------------- SKILLS STYLES ---------------------------- */
+  /* ---------------------------- ABOUT STYLES ---------------------------- */
   #about{
     padding: 60px 0;
     display: flex;
@@ -320,19 +328,15 @@ textarea {
 
   #about h3{
     margin-bottom: 0;
-    font-size: 2em;
     font-weight: bold;
   }
   #about h4{
     margin-top: 0;
-    font-size: 1.75em;
   }
 
   #about p{
     width: 100%;
     text-align: justify;
-    font-size: 1.25em;
-    line-height: 1.125em;
   }
 
   /* ---------------------------- CONTACT STYLES ---------------------------- */
@@ -347,7 +351,6 @@ textarea {
 
   #contact h2 {
     text-align: center;
-    font-size: 2.5em;
     margin: 0;
   }
 
@@ -357,8 +360,11 @@ textarea {
   }
 
   #contact h5{
-    font-size: 1.5em;
     margin: 60px 0 30px 0;
+  }
+
+  #contact i{
+    font-size: 2.25rem;
   }
 
   .connect-segment{
@@ -379,9 +385,8 @@ textarea {
 
   .social-icons p{
     background-color: #E9B14C;
-    padding: 5px;
+    padding: .5em;
     border-radius: 50%;
-    font-size: 1.5em;
   }
 
   .social-icons li a p{
@@ -482,16 +487,113 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+/*Tablet Styles*/
+  @media only screen and (min-width: 768px) {
+    /* ---------------------------- GLOBAL STYLES ---------------------------- */
+    header,
+    #projects,
+    #skills,
+    #about,
+    footer{
+      padding: 80px 0;
+    }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+    .content-wrapper{
+      max-width: 640px;
+    }
+    
+    h1{
+      font-size: 4rem;
+     }
+  
+     h2{
+      font-size: 3.5rem;
+     }
+  
+     h3{
+      font-size: 2.5rem;
+     }
+  
+     h4,
+     h5{
+      font-size: 2rem;
+     }
+      
+     p,
+     a {
+       font-size: 1.5rem;
+     }
+
+    /* ---------------------------- PROJECTS STYLES ---------------------------- */
+        
+    .project-wrapper{
+      justify-content: space-between;
+    }
+    
+    .project{
+      width: 45%;
+    }
+
+    /* ---------------------------- SKILLS STYLES ---------------------------- */
+    #skills li{
+      width: 45%;
+    }
+
+    #skills i{
+      font-size: 2.5rem;
+    }
+    
+    #skills ul{
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: normal;
+    }
+
+    .icon-half{
+      width: 25%;
+    }
+
+    .text-half{
+      width: 70%;
+      text-align: left;
+    }
+
+    /* ---------------------------- ABOUT STYLES ---------------------------- */
+    #about img{
+      width: 70%;
+    }
+
+    /* ---------------------------- CONTACT STYLES ---------------------------- */
+    #contact div{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    #contact i{
+      font-size: 2.25rem;
+    }
+  
+    .connect-segment{
+      width: 45%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .social-icons {
+      display: flex;
+      width: 80%;
+      justify-content: space-evenly;
+    }
+
+  }
+  
+/*Desktop Styles*/
+  @media only screen and (min-width: 1200px) {
+
+  }
 
 /* ==========================================================================
    Print styles.
