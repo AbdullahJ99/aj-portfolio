@@ -533,6 +533,7 @@ span {
     font-size: 1.5rem;
   }
 
+
   /* ---------------------------- HEADER STYLES ---------------------------- */
   header .content-wrapper {
     display: flex;
@@ -549,6 +550,10 @@ span {
   header nav ul {
     display: flex;
     justify-content: space-between;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
   }
 
   /* ---------------------------- PROJECTS STYLES ---------------------------- */
